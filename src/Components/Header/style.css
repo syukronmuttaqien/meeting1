@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+.button {
+  display: flex;
+  margin-right: 8px;
+  border-width: 0px;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: black;
+  text-decoration-line: none;
+}
+
+.button:hover {
+  text-decoration-line: underline;
+}
+
+.button-container {
+  display: flex;
+  margin-right: 16px;
+  border-width: 0px;
+}
+
+.button-icon {
+  width: 32px;
+  height: 32px;
+}
